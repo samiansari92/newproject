@@ -8,7 +8,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 app.get('/', (req, res) => {
-  res.json({ message: 'Welcome to Node.js API' });
+  res.json({ message: 'Welcome to sami Node.js API' });
 });
 
 app.get('/health', (req, res) => {
@@ -19,4 +19,5 @@ app.get('/health', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+
 
